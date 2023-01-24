@@ -11,13 +11,13 @@ const resume = () => {
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
-        <link rel='icon' href='/navLogo.png' />
+        <link rel='icon' href='/vercel.svg' />
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Temiloluwa Praise</h2><h3>Full Stack Web Developer</h3><h3>09160739969</h3>
+          <h2 className='text-center'>Temiloluwa Praise</h2> <br></br><h3>Full Stack Web Developer</h3><h3>09160739969</h3>
           <div className='flex'>
             <a
               href='https://www.linkedin.com/in/praise-temiloluwa-453392252/'
