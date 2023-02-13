@@ -1,6 +1,7 @@
 
 import React from 'react';
 import nikeImg from '../public/assets/projects/nike.png';
+import metaverseImg from '../public/assets/projects/metaverse.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -16,7 +17,13 @@ const Projects = () => {
             title='Nike E-commerce Store'
             backgroundImg={nikeImg}
             projectUrl='/nike'
-            tech='React JS, Vite JS'
+            tech='React JS, Next JS'
+          />
+          <ProjectItem
+            title='Metaverse Project'
+            backgroundImg={metaverseImg}
+            projectUrl='/metaverse'
+            tech='Next JS, FramerMotion, Tailwind CSS '
           />
           
         </div>

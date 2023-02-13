@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import nikeImg from '../public/assets/projects/nike.png';
+import metaverseImg from '../public/assets/projects/metaverse.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,12 +13,12 @@ const nike = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={nikeImg}
+          src={metaverseImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Nike Ecommerce </h2>
-          <h3>React JS / Tailwind / Vite</h3>
+          <h3>Next JS / Tailwind / FramerMotion</h3>
         </div>
       </div>
 
@@ -27,17 +27,17 @@ const nike = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          I delivered a user-friendly and visually stunning e-commerce platform for Nike. This project showcases our ability to create successful e-commerce solutions that drive sales and accurately reflect the brand. The e-commerce platform is powered by advanced technology that allows for easy management of products, orders, and customer information. This project demonstrates my expertise in delivering effective e-commerce solutions that drive sales and enhance the customer experience.
+          Metaverse is an online virtual world where users can interact with each other and experience a new level of immersion in a virtual environment. I was responsible for creating and implementing the design and user experience for the website. The website features stunning motion graphics and intuitive navigation, allowing users to fully immerse themselves in the world of Metaverse. With a focus on accessibility and user-friendly design, we strive to make the Metaverse experience accessible and enjoyable for everyone. This project showcases our ability to work on cutting-edge technology and deliver visually stunning, user-centered designs.
           </p>
           <a
-            href='https://github.com/TemiloluwaPraise/Nike-Store-Project'
+            href='https://github.com/TemiloluwaPraise/Metaverse-Website'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
           </a>
           <a
-            href='https://nike-store-by-temibillions-v-1.vercel.app/'
+            href='https://temibillionsmetaverse.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -50,17 +50,21 @@ const nike = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Vite JS
+                <RiRadioButtonFill className='pr-1' /> Next JS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind CSS
+                <RiRadioButtonFill className='pr-1' /> Tailwind
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> FramerMotion
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React Redux
+                <RiRadioButtonFill className='pr-1' /> Vercel
               </p>
+              
+              {/* <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Routes
+              </p> */}
             </div>
           </div>
         </div>
